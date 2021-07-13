@@ -15,26 +15,24 @@ class ApplicationController < Sinatra::Base
   end
 
   # method "URL" 
-  get '/'  do
-    "Welcome to Artsy"
-   end
+    get '/'  do
+      "Welcome to Artsy"
+    end
 
-   get '/painting'  do
-    Painting.all.to_json
+    get '/painting'  do
+      Painting.all.to_json
+    end
 
-   end
+    get '/buyer'  do
+      Buyer.all.to_json
+    end
 
-   get '/buyer'  do
-    Buyer.all.to_json
-   end
+    get '/gallery'  do
+      Gallery.all.to_json
+    end
 
-   get '/gallery'  do
-    Gallery.all.to_json
-
-   end
-
-   get '/review'  do
-    Review.all.to_json
-   end
+    get '/review'  do
+      Review.all.to_json
+    end
 
 end
