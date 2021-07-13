@@ -1,8 +1,12 @@
 puts 'Clearing old data...'
 Buyer.destroy_all
+Buyer.reset_pk_sequence
 Painting.destroy_all
+Painting.reset_pk_sequence
 Gallery.destroy_all
+Gallery.reset_pk_sequence
 Review.destroy_all
+Review.reset_pk_sequence
 
 puts '💰💰 Seeding buyers...💰💰'
 15.times do
