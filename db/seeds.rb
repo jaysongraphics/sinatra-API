@@ -57,6 +57,7 @@ artist_name = Faker::Artist.name
 # flag = Faker::Nation.flag
 Painting.create(
     painting_name: painting_name, 
+    image: 'https://d32dm0rphc51dk.cloudfront.net/6b4QduWxeA1kSnrifgm2Zw/medium.jpg',
     artist_name: artist_name, 
     price: price,
     buyer_id: buyer_id, 

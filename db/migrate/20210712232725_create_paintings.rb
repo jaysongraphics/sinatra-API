@@ -2,6 +2,7 @@ class CreatePaintings < ActiveRecord::Migration[5.2]
   def change
     create_table :paintings do |t|
       t.string :painting_name
+      t.string :image, null: false
       t.integer :price
       t.string :artist_name
       t.integer :gallery_id

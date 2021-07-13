@@ -20,15 +20,8 @@ class ApplicationController < Sinatra::Base
    end
 
    get '/painting'  do
-    painting_name = Painting(:painting_name)
-    # price = Painting.price
-    # artist_name = Painting.artist_name
-    # gallery_id = Painting.gallery_id
-    # buyer_id = Painting.buyer_id
+    Painting.all.to_json
 
-    {painting_name: painting_name}.to_json
-
-    # {painting_name: painting_name, price: price, artist_name: artist_name, gallery_id: gallery_id, buyer_id: buyer_id}.to_json
    end
 
    get '/buyer'  do
@@ -36,7 +29,8 @@ class ApplicationController < Sinatra::Base
    end
 
    get '/gallery'  do
-    "Paintings on paintings"
+    Gallery.all.to_json
+
    end
 
    get '/review'  do
