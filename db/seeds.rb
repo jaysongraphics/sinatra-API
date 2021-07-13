@@ -30,7 +30,7 @@ end
 
 puts '❕❕ Seeding reviews...❕❕'
 20.times do
-comments = ["Beautiful gallery", "Loved it here", "Must visit", "Wide variety and great selection of paintings", "this was horrible!", "very organized..", "I wish I came sooner!"].sample
+comments = ["Beautiful gallery", "Loved it here", "Must visit", "Wide variety and great selection of paintings", "This gallery was horrible!", "Very organized..", "I wish I came sooner!"].sample
 # comment = Faker::GreekPhilosophers.quote
 # comment = Faker::Quotes::Shakespeare.as_you_like_it_quote
 buyer_id = Buyer.ids.sample
