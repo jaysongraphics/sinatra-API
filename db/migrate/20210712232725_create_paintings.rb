@@ -4,7 +4,7 @@ class CreatePaintings < ActiveRecord::Migration[5.2]
       t.string :painting_name
       t.string :image, null: false
       t.string :artist_name
-      t.string :country_birth
+      t.string :country
       t.string :birthday
       t.integer :price
       t.integer :gallery_id

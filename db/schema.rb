@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2021_07_12_232747) do
     t.string "painting_name"
     t.string "image", null: false
     t.string "artist_name"
-    t.string "country_birth"
+    t.string "country"
     t.string "birthday"
     t.integer "price"
     t.integer "gallery_id"
