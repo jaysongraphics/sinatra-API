@@ -31,7 +31,7 @@ class ApplicationController < Sinatra::Base
       Gallery.all.to_json
     end
 
-    get '/review'  do
+    get '/reviews'  do
       Review.all.to_json
     end
 
