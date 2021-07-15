@@ -19,9 +19,12 @@ ActiveRecord::Schema.define(version: 2021_07_12_232747) do
 
   create_table "galleries", force: :cascade do |t|
     t.string "gallery_name"
-    t.datetime "date"
-    t.string "time"
+    t.string "date"
+    t.string "hours"
     t.string "location"
+    t.string "description"
+    t.string "image"
+    t.string "website"
   end
 
   create_table "paintings", force: :cascade do |t|
