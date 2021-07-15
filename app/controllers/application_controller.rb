@@ -39,13 +39,20 @@ class ApplicationController < Sinatra::Base
     get '/review'  do
       Review.all.to_json
     end
-    post '/review'  do
-      Review.collect{|rev| rev.id == params[:id]}.to_json
-    end
+
+    # delete '/review/:id'  do
+    #   Review.collect{|rev| rev.id == params[:id]}.to_json
+    # end
+
     post '/review' do
-      params.to_json
-      comment = params[:Comment]
-      Review.create(comment: comment).to_json
+      # binding.pry
+      # params = {buyer_id: 1, gallery_id: 4, comment: "new com"}
+      review = Review.create(params)
+      # params.to_json
+      # comment = params[:Comment]
+      # Review.create(comment: comment).to_json
+      review.to_json
+
     end
     delete '/buyer/:id' do
       Buyer.find_by(id: params[:id]).destroy

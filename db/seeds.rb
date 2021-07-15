@@ -166,6 +166,7 @@ Painting.create(
     birthday: birthday,
     price: price,
     buyer_id: buyer_id, 
+    # buyer_id: nil
     gallery_id: gallery_id
 )
 end
