@@ -165,32 +165,32 @@ Painting.create(
     country: flag, 
     birthday: birthday,
     price: price,
-    buyer_id: buyer_id, 
-    # buyer_id: nil
+    # buyer_id: buyer_id, 
+    buyer_id: nil,
     gallery_id: gallery_id
 )
 end
 
-10.times do 
-    price = rand(50000..2000000)
-    gallery_id = Gallery.ids.sample
-    buyer_id = Buyer.ids.sample
-    painting_name = Faker::Ancient.titan
-    painting_name3 = Faker::Cosmere.feruchemist 
-    artist_name = Faker::Artist.name
-    flag = Faker::Nation.flag
-    birthday = Faker::Date.birthday(min_age: 23, max_age: 65)
-    Painting.create(
-        painting_name: painting_name3, 
-        image: 'https://d32dm0rphc51dk.cloudfront.net/6b4QduWxeA1kSnrifgm2Zw/medium.jpg',
-        artist_name: artist_name, 
-        country: flag, 
-        birthday: birthday,
-        price: price,
-        buyer_id: nil, 
-        gallery_id: gallery_id
-    )
-end
+# 10.times do 
+#     price = rand(50000..2000000)
+#     gallery_id = Gallery.ids.sample
+#     buyer_id = Buyer.ids.sample
+#     painting_name = Faker::Ancient.titan
+#     painting_name3 = Faker::Cosmere.feruchemist 
+#     artist_name = Faker::Artist.name
+#     flag = Faker::Nation.flag
+#     birthday = Faker::Date.birthday(min_age: 23, max_age: 65)
+#     Painting.create(
+#         painting_name: painting_name3, 
+#         image: 'https://d32dm0rphc51dk.cloudfront.net/6b4QduWxeA1kSnrifgm2Zw/medium.jpg',
+#         artist_name: artist_name, 
+#         country: flag, 
+#         birthday: birthday,
+#         price: price,
+#         buyer_id: nil, 
+#         gallery_id: gallery_id
+#     )
+# end
 
 puts '💠 Paintings are in the Vault!! 💠'
 

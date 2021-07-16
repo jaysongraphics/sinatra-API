@@ -23,14 +23,14 @@ class ApplicationController < Sinatra::Base
     end
     post '/login'  do
       #  params.to_json
-       username = params[:Username]
-       email = params[:Email]
+       username = params[:username]
+       email = params[:email]
        Buyer.find_by(name: username, email: email).to_json
     end
     post '/signup'  do
       params.to_json
-      username = params[:Username]
-      email = params[:Email]
+      username = params[:username]
+      email = params[:email]
     
       Buyer.create(name: username, email: email).to_json
    end
