@@ -26,7 +26,7 @@ alexander_gray = Gallery.create(
     location: "510 West 26 Street, New York, NY 10001",
     description: "Located within throwing distance of the High Line, this Chelsea space opened in 2006, and showcases midcareer talents who first emerged during the 1970s, ’80s and ’90s. Among the artists who show there, you’ll find veterans such as Polly Apfelbaum, Joan Semmel and Luis Camnitzer.",
     image: "https://www.alexandergray.com/media/cache/resolve/1010x580_fit/594a3c935a4091cd008b4568/0ebe56726821b9a2695eefc2d6f09f4a.jpeg",
-    website: "alexandergray.com"
+    website: "https://alexandergray.com"
 )
 
 fergus_mccaffrey = Gallery.create(
@@ -36,7 +36,7 @@ fergus_mccaffrey = Gallery.create(
     location: "514 West 26th Street, New York, NY 10001",
     description: "Founded in 2006, Fergus McCaffrey is internationally recognized for its groundbreaking role in promoting the work of post-war Japanese artists, as well as a quality roster of select contemporary European and American artists. Fergus McCaffrey has been instrumental in introducing post-war Japanese art to a Western market: Gutai artists Sadamasa Motonaga, Kazuo Shiraga and Toshio Yoshida; Hi-Red-Center members Jiro Takamatsu and Natsuyuki Nakanishi; and Noriyuki Haraguchi and Hitoshi Nomura from the Mono-Ha era. The gallery also exhibits the work of emerging and seminal Western artists, including Anna Conway, Jack Early, Marcia Hafif, Birgit Jürgenssen, Richard Nonas, Sigmar Polke, Carol Rama, William Scott, and Andy Warhol. Fergus McCaffrey, Tokyo opened in May of 2018.",
     image: "https://fergusmccaffrey.com/wp-content/uploads/fm-ny-exterior.png",
-    website: "fergusmccaffrey.com"
+    website: "https://fergusmccaffrey.com"
 )
 paula_cooper = Gallery.create(
     gallery_name: "Paula Cooper Gallery",
@@ -45,7 +45,7 @@ paula_cooper = Gallery.create(
     location: "514 West 26th Street, New York, NY 10001",
     description: "Paula Cooper Gallery, the first art gallery in SoHo, opened in 1968 with an exhibition to benefit the Student Mobilization Committee to End the War in Vietnam. The show included works by Carl Andre, Dan Flavin, Donald Judd, Robert Mangold and Robert Ryman, among others, as well as Sol LeWitt’s first wall drawing. For over fifty years, the gallery’s artistic agenda has remained focused on, though not limited to, conceptual and minimal art. In 1996, the gallery moved to Chelsea to occupy an award-winning redesigned 19th century building. The architect was Richard Gluckman. In 1999, Paula Cooper opened a second exhibition space at 521 West 21st Street. In fall 2018, the gallery temporarily relocated its primary space to 524 West 26th Street, opening with a 50th anniversary exhibition that benefitted March For Our Lives.",
     image: "https://media.timeout.com/images/100122743/750/422/image.jpg",
-    website: "paulacoopergallery.com"
+    website: "https://paulacoopergallery.com"
 )
 marianne_b = Gallery.create(
     gallery_name: "Marianne Boesky Gallery",
@@ -64,7 +64,7 @@ minus = Gallery.create(
     location: "16 Main Street, Suite A, Brooklyn, NY 11201 ",
     description: "It's rare to find a gallery that restricts its program to a particular genre, but that is what Minus Space has done since it opened in 2003. Dedicated to what it calls, 'reductive abstract art' this space located in the heart of Dumbo has presented an international roster of artists adhering to the idea that less is more with paintings that emphasize color, flatness and simplified form.",
     image: "https://media.timeout.com/images/105181118/750/422/image.jpg",
-    website: "minusspace.com"
+    website: "https://minusspace.com"
 )
 
 kustera = Gallery.create(
@@ -84,7 +84,7 @@ clearing = Gallery.create(
     location: "396 Johnson Avenue, Brooklyn, NY, 11206",
     description: "This space with an all-caps name is the New York branch of a gallery in Brussels, Belgium, and like the home office, the Brooklyn shop focuses on contemporary art by an international roster of young emerging artists with up-to-the-minute sensibilities.",
     image: "https://media.timeout.com/images/103902802/750/422/image.jpg",
-    website: "c-l-e-a-r-i-n-g.com"
+    website: "https://c-l-e-a-r-i-n-g.com"
 )
 
 theodore = Gallery.create(
@@ -94,7 +94,7 @@ theodore = Gallery.create(
     location: "373 Broadway, 6th floor, room #F10, New York, NY 10013",
     description: "Founded by Stephanie Theodore in 2010, Theodore, a contemporary art gallery and consultancy, presenting exhibitions of works by emerging and established artists from the UK, EU and the US, in a variety of settings and contexts.  Theodore:Art offers a window of opportunity to discover promising artists early in their careers.",
     image: "https://media.timeout.com/images/105181177/750/422/image.jpg",
-    website: "theodoreart.com"
+    website: "https://theodoreart.com"
 )
 
 bortolami = Gallery.create(
@@ -104,7 +104,7 @@ bortolami = Gallery.create(
     location: "39 Walker St, New York, NY 10013",
     description: "This gallery, originally founded by Stefania Bortolami and Amalia Dayan two former directors at Gagosian opened in 2005 and represents a rooster of mid-career, contemporary artists.",
     image: "https://bortolamigallery.com/site/wp-content/uploads/2021/06/Green_Bortolami_TheUpstairs_2021-01-1-1600x1067.jpg",
-    website: "bortolamigallery.com"
+    website: "https://bortolamigallery.com"
 )
 
 drawing = Gallery.create(
@@ -114,7 +114,7 @@ drawing = Gallery.create(
     location: "35 Wooster Street, New York, NY, 10013",
     description: "Founded in 1977 by Martha Beck (1938–2014), The Drawing Center—an exhibition space in downtown Manhattan's SoHo neighborhood—explores the medium of drawing as primary, dynamic, and relevant to contemporary culture, the future of art, and creative thought. Its activities are both multidisciplinary and broadly historical, and include exhibitions, publications, and educational and public programs.",
     image: "https://media.timeout.com/images/103834572/750/422/image.jpg",
-    website: "drawingcenter.org"
+    website: "https://drawingcenter.org"
 )
 
 # 10.times do
