@@ -22,7 +22,6 @@ class ApplicationController < Sinatra::Base
       Buyer.all.to_json
     end
     post '/login'  do
-      #  params.to_json
        username = params[:username]
        email = params[:email]
        Buyer.find_by(name: username, email: email).to_json
@@ -41,17 +40,9 @@ class ApplicationController < Sinatra::Base
       Review.all.to_json
     end
 
-    # delete '/review/:id'  do
-    #   Review.collect{|rev| rev.id == params[:id]}.to_json
-    # end
 
     post '/review' do
-      # binding.pry
-      # params = {buyer_id: 1, gallery_id: 4, comment: "new com"}
       review = Review.create(params)
-      # params.to_json
-      # comment = params[:Comment]
-      # Review.create(comment: comment).to_json
       review.to_json
 
     end
